@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px; /* Aumentar el radio de borde */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Sombra más intensa */
+}
+
+h1, h2, h3, h4 {
+    margin-bottom: 15px;
+    color: #6A0DAD; /* Color morado */
+    font-family: 'Georgia', serif; /* Cambiar tipo de letra para encabezados */
+    letter-spacing: 0.5px; /* Espaciado entre letras */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #6A0DAD; /* Color morado */
+    color: white;
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 12px; /* Aumentar el padding */
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Aumentar el radio de borde */
+    font-family: 'Arial', sans-serif; /* Tipo de letra para formularios */
+    transition: border-color 0.3s; /* Transición para el borde */
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+textarea:focus {
+    border-color: #6A0DAD; /* Cambiar color de borde al enfocar */
+}
+
+button {
+    background-color: #6A0DAD; /* Color morado */
+    color: white;
+    border: none;
+    padding: 12px 20px; /* Aumentar padding */
+    border-radius: 5px; /* Aumentar radio de borde */
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s; /* Transiciones para el botón */
+    font-weight: bold; /* Resaltar texto de botones */
+}
+
+button:hover {
+    background-color: #5c0e9c; /* Color morado más oscuro */
+    transform: scale(1.05); /* Efecto de aumento al pasar el mouse */
+}
+
+textarea {
+    height: 120px; /* Aumentar altura */
+    resize: none; /* Deshabilitar redimensionar */
+}
+
+#infoCesar, #infoEscitala {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 15px; /* Aumentar padding */
+    margin-top: 10px;
+    border-radius: 5px; /* Aumentar radio de borde */
+    font-family: 'Georgia', serif; /* Cambiar tipo de letra para información */
+    font-weight: bold; /* Resaltar información */
+    letter-spacing: 0.5px; /* Espaciado entre letras en la información */
+}
+
+p {
+    font-family: 'Arial', sans-serif; /* Tipo de letra para párrafos */
+    margin: 10px 0;
+    letter-spacing: 0.5px; /* Espaciado entre letras en párrafos */
+}
